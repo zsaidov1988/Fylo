@@ -672,6 +672,8 @@ HEADER
   .site-header__wrapper {
     padding-top: 40px;
     padding-bottom: 48px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -885,6 +887,8 @@ MAIN - HOW WORKED
     flex-direction: column;
     justify-content: center;
     margin-top: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .how-worked__img {
@@ -892,7 +896,7 @@ MAIN - HOW WORKED
   }
 
   .how-worked__right-side {
-    max-width: 500px;
+    max-width: 370px;
   }
 
   .how-worked__heading {
@@ -914,6 +918,10 @@ MAIN - HOW WORKED
   .how-worked__img {
     width: 304px;
     height: 230px;
+  }
+
+  .how-worked__right-side {
+    max-width: 320px;
   }
 }
 
@@ -1002,7 +1010,7 @@ MAIN - FORM
 
 @media only screen and (max-width: 570px) {
   .form__form-box {
-    width: 336px;
+    width: 330px;
     top: -177px;
   }
 
